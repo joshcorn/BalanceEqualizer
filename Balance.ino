@@ -1,32 +1,3 @@
-/* -----------------------------------------------------------------------
- * Programmer:   Cody Hazelwood
- * Date:         March 20, 2012
- * Platform:     Arduino Uno
- * Description:  Calibrates a motorized fader's max and min
- *               position.  Allows changing the position with an 
- *               external potentiometer.  Uses a capacitance 
- *               sensing circuit for touch sensitivity.
- *               More or less a proof of concept to be used in a future 
- *               project.
- * Dependencies: CapSense Arduino Library (for fader touch sensitivity)
- *               http://www.arduino.cc/playground/Main/CapSense
- * -----------------------------------------------------------------------
- * Copyright 2012.  Cody Hazelwood.
- *              
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- * -----------------------------------------------------------------------
- */
 #include <Adafruit_NeoPixel.h>
 #include <avr/power.h>
 #include <CapacitiveSensor.h>
